@@ -23,6 +23,11 @@ The dataset comprises labeled images of plant leaves affected by different disea
 
 This diverse dataset ensures robust training and testing of the model.
 
+## Resources:
+Due to the large file sizes, not all resources where not uploaded here. However, a zipped folder containing all the necessary resources, including the original dataset, trained models, and a JSON file with training history, has been uploaded to Google Drive and made public.
+
+Access the resources here: https://drive.google.com/drive/folders/1blTwGz02Ka5ec04UWUSpNuIZKu_F6kj3?usp=sharing
+
 ## Model Architecture
 The CNN architecture used in this project includes:
 - Input Layer
@@ -41,7 +46,6 @@ The model was trained using a set of training images with the following configur
 - **Optimizer:** Adam
 - **Learning Rate:** 0.001
 
-Data augmentation techniques were applied, including rotation, flipping, and zooming, to enhance the model's robustness against variations in the input images.
 
 ## Results
 After training, the model achieved:
